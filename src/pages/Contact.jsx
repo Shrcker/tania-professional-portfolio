@@ -1,7 +1,15 @@
 // Stand-in for the "Contact" page.
 import { useId } from 'react';
 
-export default function Contact() {
+function Contact() {
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+    console.log(formData);
+  }
+
   const textAreaId = useId();
 
   return (
@@ -12,7 +20,7 @@ export default function Contact() {
         and message in the input fields below. I&apos;ll be sure to message you as
         soon as I am able.
       </p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="nameInput">Your Name</label><br />
         <input name="nameInput" type="text" required /><br />
 
@@ -33,3 +41,5 @@ export default function Contact() {
     </div>
   );
 }
+
+export default Contact;
