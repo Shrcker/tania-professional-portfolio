@@ -1,11 +1,16 @@
-import React from 'react'
+// import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowerRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
-import { About, Contact, Portfolio, Resume, Error } from './pages/';
+// import { About, Contact, Portfolio, Resume, Error } from './pages/';
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Resume from './pages/Resume.jsx';
+import Error from './pages/Error.jsx';
 
-const router = createBrowerRouter([
+const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
@@ -32,7 +37,7 @@ const router = createBrowerRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  // </React.StrictMode>
 )
