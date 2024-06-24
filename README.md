@@ -1,8 +1,24 @@
-# React + Vite
+# Personal Portfolio & Professional Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This site is a collection of my completed and in progress coding projects, meant to act as a hub for anyone who would like to view my work and contact me for work or inquiries.
 
-Currently, two official plugins are available:
+While it is still in progress, I currently have a very basic layout functioning within a React/JSX environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Github Link**: [Here](https://github.com/Shrcker/tania-professional-portfolio)
+**Deployment Link**: [Here](google.com)
+
+![Project Screenshot](./public/project-preview.jpg)
+
+## Installation
+
+Visit the above deployment link to view the active application.
+
+## Usage
+
+Anyone who wishes to know more about me, contact me, or simply view my past work and experience may visit this site. My email and professional links are displayed throughout the site, and the Contact Me Page has a simple contact form from which you can shoot me an email.
+
+*please note that this contact form feature is still being worked on, for now the form simply returns your message into the console*
+
+## Credits
+
+Thanks goes to Sandra, a tutor at Ohio State University who helped me with the Portfolio page extensively. 
