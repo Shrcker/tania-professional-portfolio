@@ -5,7 +5,8 @@ This site is a collection of my completed and in progress coding projects, meant
 While it is still in progress, I currently have a very basic layout functioning within a React/JSX environment.
 
 **Github Link**: [Here](https://github.com/Shrcker/tania-professional-portfolio)
-**Deployment Link**: [Here](google.com)
+
+**Deployment Link**: [Here](https://tania-personal-portfolio.netlify.app)
 
 ![Project Screenshot](./public/project-preview.jpg)
 
