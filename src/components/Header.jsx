@@ -7,6 +7,7 @@ export default function Header() {
       <h1>Tania Shirkey</h1>
       <h4 className="position">Junior Frontend Developer</h4>
       <NavBar />
+      <div className="header-divider"></div>
     </header>
   );
 }

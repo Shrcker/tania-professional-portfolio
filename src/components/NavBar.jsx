@@ -31,7 +31,6 @@ export default function NavBar() {
           <p>Resumé</p>
         </Link>
       </li>
-      <div className="header-divider"></div>
     </nav>
   );
 }
