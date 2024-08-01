@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
-import './index.css'
+import './styles/index.css'
 // import { About, Contact, Portfolio, Resume, Error } from './pages/';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
