@@ -68,7 +68,6 @@ header li {
 
 header {
   margin-bottom: 0px;
-  /* align-items: space-around; */
 }
 
 .position {
@@ -90,11 +89,3 @@ header h4 {
   padding-top: 5px;
   align-content: space-between;
 }
-
-/* .vertical-separator {
-  width: 1px;
-  height: 100px;
-  width: 100px;
-  text-align: left;
-  margin-left: 0;
-} */
