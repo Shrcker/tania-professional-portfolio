@@ -10,7 +10,9 @@ function App() {
     <>
       <Header />
       <main>
+        <div className="pattern">
         <Outlet />
+        </div>
       </main>
       <Footer />
     </>
