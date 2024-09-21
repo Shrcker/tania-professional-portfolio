@@ -10,21 +10,21 @@ export default function NavBar() {
           <p>About Me</p>
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="portfolio-tab">
         <Link
           to="/Portfolio"
           className={currentPage === "/Portfolio" ? "nav-link active" : "nav-link"}>
           <p>Portfolio</p>
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="contact-tab">
         <Link
           to="/Contact"
           className={currentPage === "/Contact" ? "nav-link active" : "nav-link"}>
           <p>Contact</p>
         </Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" id="resume-tab">
         <Link
           to="/Resume"
           className={currentPage === "/Resume" ? "nav-link active" : "nav-link"}>

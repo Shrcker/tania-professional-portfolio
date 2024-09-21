@@ -1,3 +1,8 @@
+* {
+  --main-bg-color: #2f2f31;
+  --light-bg-color: #454549;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,12 +10,18 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--main-bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.pattern {
+  background-image: repeating-linear-gradient(-45deg, var(--light-bg-color), var(--light-bg-color) 1px, transparent 1px, transparent 6px);
+  background-size: 4px 4px;
+
 }
 
 body {
