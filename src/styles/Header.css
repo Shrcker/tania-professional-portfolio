@@ -46,6 +46,7 @@ header a:active p {
 
 nav > * {
   margin: 0 9px;
+  justify-content: center;
 }
 
 header li {
